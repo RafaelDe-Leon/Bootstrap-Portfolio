@@ -26,8 +26,6 @@ body {
     margin-top: 20px 0 0 20px;
 }
 
-
-
 .p1-margin {
     margin: 10px;
 }
@@ -45,16 +43,44 @@ body {
     min-height: 500px;
     padding-bottom: 40px;
     /* overflow: inherit; */
+}
 
+.style-img {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.img-relative {
+    position: relative;
+}
+.text-middle {
+    position: absolute;
+    background: darkred;
+    height: 50px;
+    width: 290px;
+    top: 125px;
+    left: 50px;
+    z-index: 1;
+}
+
+.dark-red {
+    background-color: darkred;
+    border: none;
+}
+
+.dark-red:hover {
+    background-color: black;
 }
 
 /* form */
 
 .min-message-form {
     min-height: 100px;
-    max-height: 500px;
+    max-height: 200px;
 }
+
 /* footer css */
+
 #sticky-footer {
     bottom: 0;
     width: 100%;
@@ -64,10 +90,12 @@ body {
     border-top: solid darkred;
     padding-top: 10px;
 }
+
 .center-footer {
     margin: 0 auto;
     /* border: solid black; */
 }
+
 .center-footer-center {
     margin-left: 45%;
 }
