@@ -13,22 +13,15 @@ body {
     margin-left: 75%;
 }
 
-/* .border-look {
-    border: solid black;
-} */
-
 .about-me {
     border-bottom: solid darkred;
     margin: 20px auto;
 }
 
 .img-margin {
-    margin-top: 20px 0 0 20px;
+    margin-top: 20px 0 0 0;
 }
 
-.p1-margin {
-    margin: 10px;
-}
 
 .p2-margin {
     margin: 10px 0 20px 20px;
@@ -56,6 +49,7 @@ body {
 .text-middle {
     position: absolute;
     background: darkred;
+    text-align: center;
     height: 50px;
     width: 290px;
     top: 125px;
