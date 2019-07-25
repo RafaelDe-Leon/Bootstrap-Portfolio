@@ -47,6 +47,13 @@ body {
     /* overflow: inherit; */
 
 }
+
+/* form */
+
+.min-message-form {
+    min-height: 100px;
+    max-height: 500px;
+}
 /* footer css */
 #sticky-footer {
     bottom: 0;
