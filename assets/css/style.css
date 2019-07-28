@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+
+}
+
 body {
     background: lightgrey;
     line-height: 2;
