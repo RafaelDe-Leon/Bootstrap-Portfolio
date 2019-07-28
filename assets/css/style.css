@@ -93,5 +93,32 @@ body {
 }
 
 .center-footer-center {
-    margin-left: 45%;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 960px) {
+    .text-middle {
+        position: absolute;
+        background: darkred;
+        text-align: center;
+        height: 50px;
+        width: 210px;
+        top: 86px;
+        left: 50px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .text-middle {
+        position: absolute;
+        background: darkred;
+        text-align: center;
+        height: 50px;
+        width: 389px;
+        top: 166px;
+        left: 50px;
+        z-index: 1;
+    }
 }
