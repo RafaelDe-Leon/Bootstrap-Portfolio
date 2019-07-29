@@ -120,20 +120,6 @@ body {
     }
 }
 
-
-@media only screen and (max-width: 980px) {
-    .text-middle {
-        position: absolute;
-        background: darkred;
-        text-align: center;
-        height: 50px;
-        width: 305px;
-        top: 136px;
-        left: 20px;
-        z-index: 1;
-    }
-}
-
 @media only screen and (max-width: 766px) {
     .text-middle {
         position: absolute;
@@ -146,14 +132,28 @@ body {
         z-index: 1;
     }
 }
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 411px) {
     .text-middle {
         position: absolute;
         background: darkred;
         text-align: center;
         height: 50px;
-        width: 306px;
+        width: 300px;
         top: 145px;
+        left: 20px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text-middle {
+        position: absolute;
+        background: darkred;
+        text-align: center;
+        height: 50px;
+        width: 230px;
+        top: 90px;
         left: 20px;
         z-index: 1;
     }
