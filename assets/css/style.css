@@ -27,10 +27,6 @@ body {
     margin: 20px auto;
 }
 
-.home-img {
-
-}
-
 .img-margin {
     margin-top: 20px 0 0 0;
 }
@@ -55,7 +51,7 @@ body {
 
 .style-img {
     width: 400px;
-    margin-left: 30px;
+    margin: 0 auto;
 }
 
 .img-relative {
@@ -68,7 +64,7 @@ body {
     height: 50px;
     width: 390px;
     top: 185px;
-    left: 50px;
+    left: 20px;
     z-index: 1;
 }
 
@@ -119,7 +115,7 @@ body {
         height: 50px;
         width: 305px;
         top: 136px;
-        left: 50px;
+        left: 20px;
         z-index: 1;
     }
 }
@@ -133,7 +129,7 @@ body {
         height: 50px;
         width: 305px;
         top: 136px;
-        left: 50px;
+        left: 20px;
         z-index: 1;
     }
 }
@@ -146,7 +142,7 @@ body {
         height: 50px;
         width: 389px;
         top: 166px;
-        left: 50px;
+        left: 20px;
         z-index: 1;
     }
 }
