@@ -66,8 +66,8 @@ body {
     background: darkred;
     text-align: center;
     height: 50px;
-    width: 266px;
-    top: 125px;
+    width: 390px;
+    top: 185px;
     left: 50px;
     z-index: 1;
 }
@@ -100,7 +100,7 @@ body {
     padding-top: 10px;
 }
 
-.center-footer {
+.center-div {
     margin: 0 auto;
     
 }
@@ -111,14 +111,28 @@ body {
 
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 990px) {
     .text-middle {
         position: absolute;
         background: darkred;
         text-align: center;
         height: 50px;
-        width: 210px;
-        top: 86px;
+        width: 305px;
+        top: 136px;
+        left: 50px;
+        z-index: 1;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    .text-middle {
+        position: absolute;
+        background: darkred;
+        text-align: center;
+        height: 50px;
+        width: 305px;
+        top: 136px;
         left: 50px;
         z-index: 1;
     }
